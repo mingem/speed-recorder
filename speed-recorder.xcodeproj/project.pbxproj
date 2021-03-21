@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8924EA442606F40200BE67EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924EA432606F40200BE67EE /* AppDelegate.swift */; };
+		8924EA462606F40200BE67EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924EA452606F40200BE67EE /* SceneDelegate.swift */; };
+		8924EA482606F40200BE67EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924EA472606F40200BE67EE /* ViewController.swift */; };
+		8924EA4B2606F40200BE67EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8924EA492606F40200BE67EE /* Main.storyboard */; };
+		8924EA4D2606F40400BE67EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8924EA4C2606F40400BE67EE /* Assets.xcassets */; };
+		8924EA502606F40400BE67EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8924EA4E2606F40400BE67EE /* LaunchScreen.storyboard */; };
+		8924EA5B2606F40400BE67EE /* speed_recorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924EA5A2606F40400BE67EE /* speed_recorderTests.swift */; };
+		8924EA662606F40400BE67EE /* speed_recorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924EA652606F40400BE67EE /* speed_recorderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8924EA572606F40400BE67EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8924EA382606F40200BE67EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8924EA3F2606F40200BE67EE;
+			remoteInfo = "speed-recorder";
+		};
+		8924EA622606F40400BE67EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8924EA382606F40200BE67EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8924EA3F2606F40200BE67EE;
+			remoteInfo = "speed-recorder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8924EA402606F40200BE67EE /* speed-recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "speed-recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8924EA432606F40200BE67EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8924EA452606F40200BE67EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8924EA472606F40200BE67EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8924EA4A2606F40200BE67EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8924EA4C2606F40400BE67EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8924EA4F2606F40400BE67EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8924EA512606F40400BE67EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8924EA562606F40400BE67EE /* speed-recorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "speed-recorderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8924EA5A2606F40400BE67EE /* speed_recorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speed_recorderTests.swift; sourceTree = "<group>"; };
+		8924EA5C2606F40400BE67EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8924EA612606F40400BE67EE /* speed-recorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "speed-recorderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8924EA652606F40400BE67EE /* speed_recorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speed_recorderUITests.swift; sourceTree = "<group>"; };
+		8924EA672606F40400BE67EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8924EA3D2606F40200BE67EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8924EA532606F40400BE67EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8924EA5E2606F40400BE67EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8924EA372606F40200BE67EE = {
+			isa = PBXGroup;
+			children = (
+				8924EA422606F40200BE67EE /* speed-recorder */,
+				8924EA592606F40400BE67EE /* speed-recorderTests */,
+				8924EA642606F40400BE67EE /* speed-recorderUITests */,
+				8924EA412606F40200BE67EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8924EA412606F40200BE67EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8924EA402606F40200BE67EE /* speed-recorder.app */,
+				8924EA562606F40400BE67EE /* speed-recorderTests.xctest */,
+				8924EA612606F40400BE67EE /* speed-recorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8924EA422606F40200BE67EE /* speed-recorder */ = {
+			isa = PBXGroup;
+			children = (
+				8924EA432606F40200BE67EE /* AppDelegate.swift */,
+				8924EA452606F40200BE67EE /* SceneDelegate.swift */,
+				8924EA472606F40200BE67EE /* ViewController.swift */,
+				8924EA492606F40200BE67EE /* Main.storyboard */,
+				8924EA4C2606F40400BE67EE /* Assets.xcassets */,
+				8924EA4E2606F40400BE67EE /* LaunchScreen.storyboard */,
+				8924EA512606F40400BE67EE /* Info.plist */,
+			);
+			path = "speed-recorder";
+			sourceTree = "<group>";
+		};
+		8924EA592606F40400BE67EE /* speed-recorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				8924EA5A2606F40400BE67EE /* speed_recorderTests.swift */,
+				8924EA5C2606F40400BE67EE /* Info.plist */,
+			);
+			path = "speed-recorderTests";
+			sourceTree = "<group>";
+		};
+		8924EA642606F40400BE67EE /* speed-recorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8924EA652606F40400BE67EE /* speed_recorderUITests.swift */,
+				8924EA672606F40400BE67EE /* Info.plist */,
+			);
+			path = "speed-recorderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8924EA3F2606F40200BE67EE /* speed-recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8924EA6A2606F40400BE67EE /* Build configuration list for PBXNativeTarget "speed-recorder" */;
+			buildPhases = (
+				8924EA3C2606F40200BE67EE /* Sources */,
+				8924EA3D2606F40200BE67EE /* Frameworks */,
+				8924EA3E2606F40200BE67EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "speed-recorder";
+			productName = "speed-recorder";
+			productReference = 8924EA402606F40200BE67EE /* speed-recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8924EA552606F40400BE67EE /* speed-recorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8924EA6D2606F40400BE67EE /* Build configuration list for PBXNativeTarget "speed-recorderTests" */;
+			buildPhases = (
+				8924EA522606F40400BE67EE /* Sources */,
+				8924EA532606F40400BE67EE /* Frameworks */,
+				8924EA542606F40400BE67EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8924EA582606F40400BE67EE /* PBXTargetDependency */,
+			);
+			name = "speed-recorderTests";
+			productName = "speed-recorderTests";
+			productReference = 8924EA562606F40400BE67EE /* speed-recorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8924EA602606F40400BE67EE /* speed-recorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8924EA702606F40400BE67EE /* Build configuration list for PBXNativeTarget "speed-recorderUITests" */;
+			buildPhases = (
+				8924EA5D2606F40400BE67EE /* Sources */,
+				8924EA5E2606F40400BE67EE /* Frameworks */,
+				8924EA5F2606F40400BE67EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8924EA632606F40400BE67EE /* PBXTargetDependency */,
+			);
+			name = "speed-recorderUITests";
+			productName = "speed-recorderUITests";
+			productReference = 8924EA612606F40400BE67EE /* speed-recorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8924EA382606F40200BE67EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8924EA3F2606F40200BE67EE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					8924EA552606F40400BE67EE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8924EA3F2606F40200BE67EE;
+					};
+					8924EA602606F40400BE67EE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8924EA3F2606F40200BE67EE;
+					};
+				};
+			};
+			buildConfigurationList = 8924EA3B2606F40200BE67EE /* Build configuration list for PBXProject "speed-recorder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8924EA372606F40200BE67EE;
+			productRefGroup = 8924EA412606F40200BE67EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8924EA3F2606F40200BE67EE /* speed-recorder */,
+				8924EA552606F40400BE67EE /* speed-recorderTests */,
+				8924EA602606F40400BE67EE /* speed-recorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8924EA3E2606F40200BE67EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8924EA502606F40400BE67EE /* LaunchScreen.storyboard in Resources */,
+				8924EA4D2606F40400BE67EE /* Assets.xcassets in Resources */,
+				8924EA4B2606F40200BE67EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8924EA542606F40400BE67EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8924EA5F2606F40400BE67EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8924EA3C2606F40200BE67EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8924EA482606F40200BE67EE /* ViewController.swift in Sources */,
+				8924EA442606F40200BE67EE /* AppDelegate.swift in Sources */,
+				8924EA462606F40200BE67EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8924EA522606F40400BE67EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8924EA5B2606F40400BE67EE /* speed_recorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8924EA5D2606F40400BE67EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8924EA662606F40400BE67EE /* speed_recorderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8924EA582606F40400BE67EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8924EA3F2606F40200BE67EE /* speed-recorder */;
+			targetProxy = 8924EA572606F40400BE67EE /* PBXContainerItemProxy */;
+		};
+		8924EA632606F40400BE67EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8924EA3F2606F40200BE67EE /* speed-recorder */;
+			targetProxy = 8924EA622606F40400BE67EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8924EA492606F40200BE67EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8924EA4A2606F40200BE67EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8924EA4E2606F40400BE67EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8924EA4F2606F40400BE67EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8924EA682606F40400BE67EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8924EA692606F40400BE67EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8924EA6B2606F40400BE67EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "speed-recorder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NMS.speed-recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8924EA6C2606F40400BE67EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "speed-recorder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NMS.speed-recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8924EA6E2606F40400BE67EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "speed-recorderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NMS.speed-recorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/speed-recorder.app/speed-recorder";
+			};
+			name = Debug;
+		};
+		8924EA6F2606F40400BE67EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "speed-recorderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NMS.speed-recorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/speed-recorder.app/speed-recorder";
+			};
+			name = Release;
+		};
+		8924EA712606F40400BE67EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "speed-recorderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NMS.speed-recorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "speed-recorder";
+			};
+			name = Debug;
+		};
+		8924EA722606F40400BE67EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "speed-recorderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NMS.speed-recorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "speed-recorder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8924EA3B2606F40200BE67EE /* Build configuration list for PBXProject "speed-recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8924EA682606F40400BE67EE /* Debug */,
+				8924EA692606F40400BE67EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8924EA6A2606F40400BE67EE /* Build configuration list for PBXNativeTarget "speed-recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8924EA6B2606F40400BE67EE /* Debug */,
+				8924EA6C2606F40400BE67EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8924EA6D2606F40400BE67EE /* Build configuration list for PBXNativeTarget "speed-recorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8924EA6E2606F40400BE67EE /* Debug */,
+				8924EA6F2606F40400BE67EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8924EA702606F40400BE67EE /* Build configuration list for PBXNativeTarget "speed-recorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8924EA712606F40400BE67EE /* Debug */,
+				8924EA722606F40400BE67EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8924EA382606F40200BE67EE /* Project object */;
+}
