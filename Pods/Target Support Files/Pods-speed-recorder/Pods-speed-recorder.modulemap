@@ -1,0 +1,6 @@
+framework module Pods_speed_recorder {
+  umbrella header "Pods-speed-recorder-umbrella.h"
+
+  export *
+  module * { export * }
+}

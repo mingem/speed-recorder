@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3304AF469682C1153FD264BD /* Pods_speed_recorderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C98339AC2228F0C745F3FB /* Pods_speed_recorderTests.framework */; };
 		8924EA442606F40200BE67EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924EA432606F40200BE67EE /* AppDelegate.swift */; };
 		8924EA462606F40200BE67EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924EA452606F40200BE67EE /* SceneDelegate.swift */; };
 		8924EA482606F40200BE67EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924EA472606F40200BE67EE /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		8924EA502606F40400BE67EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8924EA4E2606F40400BE67EE /* LaunchScreen.storyboard */; };
 		8924EA5B2606F40400BE67EE /* speed_recorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924EA5A2606F40400BE67EE /* speed_recorderTests.swift */; };
 		8924EA662606F40400BE67EE /* speed_recorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924EA652606F40400BE67EE /* speed_recorderUITests.swift */; };
+		9AD9B4E84CEF4F8D17CDC93C /* Pods_speed_recorder_speed_recorderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B126C04914759F02E94E85D /* Pods_speed_recorder_speed_recorderUITests.framework */; };
+		F639ECEDEB6408C0DFD7549B /* Pods_speed_recorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F8047DF6A2297F164A55C9 /* Pods_speed_recorder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02C98339AC2228F0C745F3FB /* Pods_speed_recorderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_speed_recorderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CBC9290244F9A91E7DE630 /* Pods-speed-recorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speed-recorder.debug.xcconfig"; path = "Target Support Files/Pods-speed-recorder/Pods-speed-recorder.debug.xcconfig"; sourceTree = "<group>"; };
+		2F950A830A30655F84E36EED /* Pods-speed-recorder-speed-recorderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speed-recorder-speed-recorderUITests.release.xcconfig"; path = "Target Support Files/Pods-speed-recorder-speed-recorderUITests/Pods-speed-recorder-speed-recorderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		61B8D9DA426360B6102DBFBF /* Pods-speed-recorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speed-recorderTests.debug.xcconfig"; path = "Target Support Files/Pods-speed-recorderTests/Pods-speed-recorderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70F8047DF6A2297F164A55C9 /* Pods_speed_recorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_speed_recorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B126C04914759F02E94E85D /* Pods_speed_recorder_speed_recorderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_speed_recorder_speed_recorderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8924EA402606F40200BE67EE /* speed-recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "speed-recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8924EA432606F40200BE67EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8924EA452606F40200BE67EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		8924EA612606F40400BE67EE /* speed-recorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "speed-recorderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8924EA652606F40400BE67EE /* speed_recorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speed_recorderUITests.swift; sourceTree = "<group>"; };
 		8924EA672606F40400BE67EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC94D7F5D1AD55EE6C23DF95 /* Pods-speed-recorder-speed-recorderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speed-recorder-speed-recorderUITests.debug.xcconfig"; path = "Target Support Files/Pods-speed-recorder-speed-recorderUITests/Pods-speed-recorder-speed-recorderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA7275E7E9A853B8807BC2FA /* Pods-speed-recorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speed-recorder.release.xcconfig"; path = "Target Support Files/Pods-speed-recorder/Pods-speed-recorder.release.xcconfig"; sourceTree = "<group>"; };
+		FE33F53938241319495D5E22 /* Pods-speed-recorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speed-recorderTests.release.xcconfig"; path = "Target Support Files/Pods-speed-recorderTests/Pods-speed-recorderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F639ECEDEB6408C0DFD7549B /* Pods_speed_recorder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3304AF469682C1153FD264BD /* Pods_speed_recorderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD9B4E84CEF4F8D17CDC93C /* Pods_speed_recorder_speed_recorderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		517B7F836C76F144245B27C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70F8047DF6A2297F164A55C9 /* Pods_speed_recorder.framework */,
+				7B126C04914759F02E94E85D /* Pods_speed_recorder_speed_recorderUITests.framework */,
+				02C98339AC2228F0C745F3FB /* Pods_speed_recorderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80A5E24CBBA910006FAF8304 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29CBC9290244F9A91E7DE630 /* Pods-speed-recorder.debug.xcconfig */,
+				FA7275E7E9A853B8807BC2FA /* Pods-speed-recorder.release.xcconfig */,
+				BC94D7F5D1AD55EE6C23DF95 /* Pods-speed-recorder-speed-recorderUITests.debug.xcconfig */,
+				2F950A830A30655F84E36EED /* Pods-speed-recorder-speed-recorderUITests.release.xcconfig */,
+				61B8D9DA426360B6102DBFBF /* Pods-speed-recorderTests.debug.xcconfig */,
+				FE33F53938241319495D5E22 /* Pods-speed-recorderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8924EA372606F40200BE67EE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				8924EA592606F40400BE67EE /* speed-recorderTests */,
 				8924EA642606F40400BE67EE /* speed-recorderUITests */,
 				8924EA412606F40200BE67EE /* Products */,
+				80A5E24CBBA910006FAF8304 /* Pods */,
+				517B7F836C76F144245B27C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8924EA6A2606F40400BE67EE /* Build configuration list for PBXNativeTarget "speed-recorder" */;
 			buildPhases = (
+				AB6F034CC646B7761A41B5DB /* [CP] Check Pods Manifest.lock */,
 				8924EA3C2606F40200BE67EE /* Sources */,
 				8924EA3D2606F40200BE67EE /* Frameworks */,
 				8924EA3E2606F40200BE67EE /* Resources */,
+				1F089B70C029C17D1D0602B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8924EA6D2606F40400BE67EE /* Build configuration list for PBXNativeTarget "speed-recorderTests" */;
 			buildPhases = (
+				D677109BF67409FBD96B858C /* [CP] Check Pods Manifest.lock */,
 				8924EA522606F40400BE67EE /* Sources */,
 				8924EA532606F40400BE67EE /* Frameworks */,
 				8924EA542606F40400BE67EE /* Resources */,
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8924EA702606F40400BE67EE /* Build configuration list for PBXNativeTarget "speed-recorderUITests" */;
 			buildPhases = (
+				69A4288383462B9D2BE9150A /* [CP] Check Pods Manifest.lock */,
 				8924EA5D2606F40400BE67EE /* Sources */,
 				8924EA5E2606F40400BE67EE /* Frameworks */,
 				8924EA5F2606F40400BE67EE /* Resources */,
+				AB063C12D177D3D7F3D74366 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +297,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F089B70C029C17D1D0602B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speed-recorder/Pods-speed-recorder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speed-recorder/Pods-speed-recorder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-speed-recorder/Pods-speed-recorder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69A4288383462B9D2BE9150A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-speed-recorder-speed-recorderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB063C12D177D3D7F3D74366 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speed-recorder-speed-recorderUITests/Pods-speed-recorder-speed-recorderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speed-recorder-speed-recorderUITests/Pods-speed-recorder-speed-recorderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-speed-recorder-speed-recorderUITests/Pods-speed-recorder-speed-recorderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB6F034CC646B7761A41B5DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-speed-recorder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D677109BF67409FBD96B858C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-speed-recorderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8924EA3C2606F40200BE67EE /* Sources */ = {
@@ -433,10 +581,12 @@
 		};
 		8924EA6B2606F40400BE67EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29CBC9290244F9A91E7DE630 /* Pods-speed-recorder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBC4TGGNV3;
 				INFOPLIST_FILE = "speed-recorder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,10 +601,12 @@
 		};
 		8924EA6C2606F40400BE67EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7275E7E9A853B8807BC2FA /* Pods-speed-recorder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBC4TGGNV3;
 				INFOPLIST_FILE = "speed-recorder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,6 +621,7 @@
 		};
 		8924EA6E2606F40400BE67EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B8D9DA426360B6102DBFBF /* Pods-speed-recorderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +643,7 @@
 		};
 		8924EA6F2606F40400BE67EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE33F53938241319495D5E22 /* Pods-speed-recorderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +665,7 @@
 		};
 		8924EA712606F40400BE67EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC94D7F5D1AD55EE6C23DF95 /* Pods-speed-recorder-speed-recorderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +685,7 @@
 		};
 		8924EA722606F40400BE67EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F950A830A30655F84E36EED /* Pods-speed-recorder-speed-recorderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
